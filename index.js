@@ -26,6 +26,7 @@ player1Click.addEventListener('click',function (e) {
     keepScoreP1.innerText = array[counter++];
     // keepScoreP1 = array[counter++];
     console.log(keepScoreP1);
+
     if (keepScoreP1.innerText > keepScoreP2.innerText){
         console.log('player1 is winning');
         display2.innerText = 'Player1 is winning'
@@ -33,6 +34,7 @@ player1Click.addEventListener('click',function (e) {
     else if (keepScoreP1.innerText === keepScoreP2.innerText){
         display2.innerText = 'It is tied'
     }
+
 });
 
 // if (keepScoreP1.innerText > keepScoreP2.innerText){
