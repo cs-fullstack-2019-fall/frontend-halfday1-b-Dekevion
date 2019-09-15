@@ -43,3 +43,6 @@ Toggle background colors on and off.
 
 ### Challenge3
 Make keyboard and mouse options. Disable and stop events from counting the points when the option is not chosen. 
+
+### Kenn's Notes:
+You were close, but didn't use more than 1-5 in your array. I think you could have got it to work with 1-15 in the array. Additionally, this would be easier if you used a counter for the score instead of an array.
